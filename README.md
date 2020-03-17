@@ -6,7 +6,7 @@ This is a resume website that I setup for myself to be included or linked on my 
 
 ## Credits
 
-Peter Wolff modified the original Start Bootstrap "Resume" template.
+Peter Wolff modified the original Start Bootstrap "Grayscale" theme.
 Thank you **BlackrockDigital** for the original theme.
 
-A [Bootstrap 4](http://getbootstrap.com/) [resume/CV theme](https://github.com/BlackrockDigital/startbootstrap-resume) created by [Start Bootstrap](http://startbootstrap.com/)
+[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).

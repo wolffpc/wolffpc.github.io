@@ -3,291 +3,238 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <title>Peter Wolff</title>
+    <title>Peter Wolff</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
-<body id="page-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Peter Wolff</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/my_profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li> -->
-      </ul>
-    </div>
-  </nav>
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    Peter Wolff
+                </a>
+            </div>
 
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Peter
-          <span class="text-primary">Wolff</span>
-        </h1>
-        <div class="subheading mb-5">11705 NW Timberview Ln · Portland, OR 98117 · (206) 565-6831 ·
-          <a href="mailto:wolffpc1@gmail.com">wolffpc1@gmail.com</a>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#hello">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#resume">Resume</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <p class="lead mb-5">I'm proficient in a range of web development frameworks and tools and quick to learn new technologies. Currently looking for new job opportunities in the Portland area.</p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/wolffpc/" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/wolffpc" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Hello</h1>
+                        <p class="intro-text">I'm Peter, a Web Developer located in Portland, OR</p>
+                        <a href="#hello" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </header>
+
+    <!-- Hello Section -->
+    <section id="hello">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <p>I've worked as an ambulance dispatcher, web design specialist, and software tester. Currently looking for web development opportunities in the Portland area or in a remote setting.</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="hello-heading">Professional</h4>
+                    <p class="text-muted">Bachelor of Science in Computer Information Systems from Grove City College, PA. Experience with Python, JavaScript, HTML/CSS, and many of the tools and frameworks surrounding them. Many of my current personal projects involve Node.js and the related technologies.</p>
+                </div>
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="hello-heading">Personal</h4>
+                    <p class="text-muted">Transplant to the Pacific Northwest from Vermont. Spent my first 5 years in Seattle and moved to Portland mid 2019. I can talk all day about video games but also enjoy getting out in the beautiful Pacific Northwest. Currently reading <i>Cibola Burn</i> by James S. A. Corey.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Web Design Specialist</h3>
-            <div class="subheading mb-3">CDK Global</div>
-            <ul>
-              <li>Provided website support for CDK clients on a day to day basis.</li>
-              <li>Created new website assets and features to provide engaging user experiences.</li>
-              <li>Added new site functionality with Javascript, HTML, and CSS.</li>
-              <li>Contributed effective feedback and reports to improve our tools and offerings.</li>
-            </ul>
-            
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July 2016 - June 2019</span>
-          </div>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Projects</h2>
+                    <p>An assortment of recent personal work I've done to learn new frameworks and tools.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a href="https://spicy-api.herokuapp.com/" target="_blank"><img src="img/portfolio/spicygraphql.png" class="img-responsive" alt=""></a>
+                    <div class="portfolio-caption">
+                        <h4>Spicy GraphQL</h4>
+                        <p class="text-muted">Node.js, Prisma, GraphQL</p>
+                        <a href="https://spicy-api.herokuapp.com/" target="_blank" class="btn btn-default btn-sm">Demo</a>
+                        <a href="https://github.com/wolffpc/spicy-graphql" target="_blank" class="btn btn-default btn-sm">Github</a>
+                        <div class="portfolio-description">API implementation using GraphQL that allows users to query information about different Hot Ones episodes and the associates hot sauces.</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a href="https://priceless-banach-b6fedf.netlify.com/" target="_blank"><img src="img/portfolio/weathervue.png" class="img-responsive" alt=""></a>
+                    <div class="portfolio-caption">
+                        <h4>Weather Vue</h4>
+                        <p class="text-muted">Vue.js, API Consumption</p>
+                        <a href="https://priceless-banach-b6fedf.netlify.com/" target="_blank" class="btn btn-default btn-sm">Demo</a>
+                        <a href="https://github.com/wolffpc/weather-vue" target="_blank" class="btn btn-default btn-sm">Github</a>
+                        <div class="portfolio-description">Weather website built using Vue.js and powered by Dark Sky. Displays the current weather and the forecast for the next six days.</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a href="https://wolffp-iss-locator.herokuapp.com/" target="_blank"><img src="img/portfolio/iss.png" class="img-responsive" alt=""></a>
+                    <div class="portfolio-caption">
+                        <h4>ISS Locator</h4>
+                        <p class="text-muted">Node.js, Express, API Consumption</p>
+                        <a href="https://wolffp-iss-locator.herokuapp.com/" target="_blank" class="btn btn-default btn-sm">Demo</a>
+                        <a href="https://github.com/wolffpc/iss-locator" target="_blank" class="btn btn-default btn-sm">Github</a>
+                        <div class="portfolio-description">Website built with Node.js/Express with Handlebars for templating. Displays the current position of the International Space Station.</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a href="https://elegant-gates-1d6cc6.netlify.com/" target="_blank"><img src="img/portfolio/phaser.png" class="img-responsive" alt=""></a>
+                    <div class="portfolio-caption">
+                        <h4>Phaser Game Demo</h4>
+                        <p class="text-muted">JavaScript, Phaser</p>
+                        <a href="https://elegant-gates-1d6cc6.netlify.com/" target="_blank" class="btn btn-default btn-sm">Demo</a>
+                        <a href="https://github.com/wolffpc/phaser-game-demo" target="_blank" class="btn btn-default btn-sm">Github</a>
+                        <div class="portfolio-description"><b>Work In Progress.</b> A simple platforming game built using the Phaser Javascript framework. No current win/lose conditions. Updates to come.</div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Freelance Web Developer</h3>
-            <div class="subheading mb-3">Self Employed</div>
-            <ul>
-              <li>Experienced web developer creating websites that meet clients’ expectations and requirements.</li>
-              <li>Skilled in multiple front end frameworks to provide mobile and desktop functionality.</li>
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2014 - June 2016</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Dispatcher</h3>
-            <div class="subheading mb-3">Olympic Ambulance</div>
-            <ul>
-              <li>Operated as the first point of contact for Olympic Ambulance customers meeting their needs.</li>
-              <li>Succeeded in a fast paced environment that required multitasking and monitoring of many systems.</li>
-            </ul>
-
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">January 2015 - June 2015</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Community Broadband Intern</h3>
-            <div class="subheading mb-3">Vermont Telephone Co.</div>
-            <ul>
-              <li>Worked as a representative for VTel offering PC support to their customers in person and over the phone.</li>
-              <li>Created web tutorials for VTel customers covering basic computer tasks and more advanced uses.</li>
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2012 - August 2012</span>
-          </div>
-        </div>
-
-      </div>
-
     </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Grove City College</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Information Systems</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2009 - December 2013</span>
-          </div>
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Resume</h2>
+                    <p>Download my most recent resume by clicking the button below. If you're looking for some more specifics check out my LinkedIn page or send me an email.</p>
+                    <p>Thanks so much!</p>
+                    <a href="peter_wolff_resume.pdf" target="_blank" class="btn btn-default btn-lg">Download PDF</a>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-python"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-yarn"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-git"></i>
-          </li>
-        </ul>
-
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Write or draw out the problem</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Extract key concepts and research</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Create an outline and object map for the concepts</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Start coding and testing</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Repeat and refine</li>
-        </ul>
-      </div>
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <p>If you'd like to get in touch or ask a question please reach out to me on LinkedIn or send me an email!</p>
+                    <p><a href="mailto:wolffpc1@gmail.com">wolffpc1@gmail.com</a>
+                    </p>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://github.com/wolffpc" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/wolffpc" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <hr class="m-0">
+    <!-- Map Section -->
+    <div id="map"></div>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>Aside from being a Web Developer, I spend my time in a variety of different ways. Originally from Vermont, I greatly enjoy exploring the outdoors of both New England and now the Pacific Northwest. Previously I skied quite often back east but haven't tried it on the west coast yet. Hopefully soon!</p>
-        <p class="mb-0">When indoors, I enjoy spending my free time playing a variety of different video games, watching movies, or enjoy one of the random assortment of tv shows I follow. If I'm going to pick up a book I'll be reaching for Science Fiction.</p>
-      </div>
-    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Created by Peter Wolff</p>
+        </div>
+    </footer>
 
-    <hr class="m-0">
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-    <!-- <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Google Analytics Certified Developer</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Mobile Web Specialist - Google Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li>
-        </ul>
-      </div>
-    </section> -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-  </div>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Google Maps API Key -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYwT05GLJUDcrB9tLBTsxPPJXOmJDZNnc"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/theme.js"></script>
 
 </body>
 
